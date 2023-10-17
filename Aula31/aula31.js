@@ -1,3 +1,4 @@
+// Método document.getElementsById
 const dc1=document.getElementById("c1")
 const dc2=document.getElementById("c2")
 const dc3=document.getElementById("c3")
