@@ -1,15 +1,15 @@
-//Every
+//Some
 const p_array=document.querySelector("#array")
 const btnVerificar=document.querySelector("#btnVerificar")
 const resultado=document.querySelector("#resultado")
 
-const elementos_array=[30,22,27,16,40,26,20]
+const elementos_array=[14,15,16,17,18]
 
 p_array.innerHTML="["+elementos_array+"]"
 
 
 btnVerificar.addEventListener("click",(evt)=>{
-    const ret=elementos_array.every((el,i)=>{
+    const ret=elementos_array.some((el,i)=>{
         if(el<18){
             resultado.innerHTML="Array não conforme na posição " +i
         }               
