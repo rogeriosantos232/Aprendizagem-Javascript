@@ -1,0 +1,27 @@
+.valor{
+    margin-top: 5px;
+}
+
+.valor > input{
+    width: 99%;
+    background-color: lightslategray;
+    border: 2px solid black;
+    color: white;
+}
+
+.operacoes{
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+#btn_soma{
+    margin-right: 10px;
+}
+#btn_subtracao{
+    margin-right: 10px;
+}
+
+#btn_multiplicacao{
+    margin-right: 10px;
+}
