@@ -1,0 +1,14 @@
+.caixa{
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+}
+#botao{
+    background-color: grey;
+    width: 170px;
+    padding: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+    padding-left: 130px;
+    padding-right: 0px;
+}

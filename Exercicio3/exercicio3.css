@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+.carros{
+    display: flex;
+    width: 100%;
+    border: 3px solid #000;
+    padding: 5px;
+    border-radius: 5px;
+}
+.carro{
+    border: 3px #008 solid;
+    background-color: #8cf;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+}
+.carro button{
+    background-color: #008;
+    color: aqua;
+    border-radius: 5px;
+    border: 1px white solid;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.campoForm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.campoForm input{
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.campoForm label{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(197, 0, 0);
+}
+.campoForm button{
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#f_tipoMilitar{
+    font-size: 40px;
+}

@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+.campoForm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.campoForm input{
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+#btn_adicionar{
+    background-color: #000000;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+.res{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+}
