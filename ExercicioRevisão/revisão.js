@@ -1,32 +1,22 @@
-//Exercicio das aulas 70,71,72 e 73
-
-const teclasNum = [...document.querySelectorAll(".num")]
-
-
-const teclasOp = [...document.querySelectorAll(".op")]
-
+const tecla = [...document.querySelectorAll('.tecla')]
+const mostrador = document.querySelector('#mostrador')
+const tDel = document.querySelector('#tDel')
+const teclaOp = [...document.querySelectorAll('.teclaOp')]
 const teclaRes = document.querySelector(".res")
-
-const mostrador = document.querySelector(".mostrador")
-
-const tDel = document.querySelector("#tDel")
-
 const tIgual = document.querySelector("#tIgual")
-
 const tCopy = document.querySelector("#tCopy")
 
 let sinal = false
 let decimal = false
 
-
-teclasNum.forEach((el) => {
+tecla.forEach((el) => {
     el.addEventListener("click", (evt) => {
         sinal = false
         if (evt.target.innerHTML == ",") {
             if (!decimal) {
                 decimal = true
                 if (mostrador.innerHTML == "0") {
-                    mostrador.innerHTML="0,"
+                    mostrador.innerHTML = "0,"
                 } else { mostrador.innerHTML += evt.target.innerHTML }
             }
         } else {
@@ -38,16 +28,34 @@ teclasNum.forEach((el) => {
     })
 })
 
-teclasOp.forEach((el) => {
+tDel.addEventListener("click",(evt)=>{
+    mostrador.innerHTML="0"
+})
+
+// teclaOp.map((el)=>{
+//     el.addEventListener("click",(evt)=>{
+//     if(!sinal){
+//         sinal=true
+//         if(mostrador.innerHTML=="0"){
+//             mostrador.innerHTML=""
+//         }
+//         if(evt.target.innerHTML=="*"){
+//             mostrador.innerHTML+="*"
+//         }else{
+//             mostrador.innerHTML+=el.innerHTML
+//         }
+//     }
+//     })
+// })
+
+teclaOp.forEach((el) => {
     el.addEventListener("click", (evt) => {
         if (!sinal) {
             sinal = true
             if (mostrador.innerHTML == "0") {
                 mostrador.innerHTML = ""
             }
-            if (evt.target.innerHTML == "*") {
-                mostrador.innerHTML += "*"
-            } else {
+            else {
                 mostrador.innerHTML += el.innerHTML
             }
         }

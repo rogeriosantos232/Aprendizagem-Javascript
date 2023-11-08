@@ -18,6 +18,9 @@ const tCopy = document.querySelector("#tCopy")
 let sinal = false
 let decimal = false
 
+const calcAba=document.querySelector('.calcAba')
+const calc=document.querySelector('.calc')
+const imgAbaCalc=document.querySelector('#imgAbaCalc')
 
 teclasNum.forEach((el) => {
     el.addEventListener("click", (evt) => {
@@ -71,4 +74,13 @@ tCopy.addEventListener("click",(evt)=>{
     teste.select()
     teste.setSelectionRange(0,999999)//Mobile
     navigator.clipboard.writeText(mostrador.innerHTML)
+})
+
+calcAba.addEventListener("click",(evt)=>{
+    calc.classList.toggle("calcExibir")
+    if(calc.classList.contains("calcExibir")){
+        evt.target.setAttribute("src","imagens/setaEsquerda.png")
+    }else{
+        evt.target.setAttribute("src","imagens/setaDireita.png")
+    }
 })
