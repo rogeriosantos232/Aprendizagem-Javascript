@@ -1,0 +1,17 @@
+Características de um time ágil
+
+* Alinhado com o cliente e stakeholders (stakeholders são partes externas ao time, podendo ser um cliente, usuario, patrocinador, etc...)
+
+* Auto-organizado e Responsável
+
+* Multidisciplinar
+
+* Entrega valor continuamente
+
+* Está sempre aprendendo
+
+* Melhoria contínua
+
+* Possui métricas e metas claras
+
+* Unido

@@ -1,0 +1,5 @@
+Framework ou Metodologia Ágil?
+
+* O framework Scrum é propositalmente incompleto, apenas definindo as partes necessárias para implementar a teoria Scrum.
+
+* Em vez de fornecer às pessoas instruções detalhadas, as regras do Guia do Scrum orientam seus relacionamentos e interações.

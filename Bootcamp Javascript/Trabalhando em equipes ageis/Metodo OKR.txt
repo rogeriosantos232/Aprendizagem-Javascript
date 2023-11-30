@@ -1,0 +1,42 @@
+OKR
+
+O que é?
+
+O bjectives
+K ey
+R esults
+
+OKR é um método de gestão ágil que foi criado pelo ex-CEO da Intel Andew Grove e tem como objetivo simplificar a forma de encarar os chamados principais objetivos estratégicos de uma empresa.
+
+Pode ter certeza de que o método funciona, já que é usado no Google desde 1999.
+
+Objectives
+
+Os objetivos do OKR são descrições qualitativas que apontam a direção que deverá ser seguida pela empresa.
+
+tem que ser:
+
+Claro
+Inspirador
+Desafiador
+Alinahdo com a missão do negócio
+
+Em alguns casos, os objetivos também podem trazer números (ex.: aumentar o lucro em 10%), mas sempre direcionados a um propósito mais amplo.
+
+Exemplos:
+
+Criar uma experiência inesquecível para o cliente em todos os pontos de contato
+
+Crescer as vendas na região sul do país, dominando a região
+
+Tornar-se referência nacional e autoridade absoluta na área de Educação em Tecnologia
+
+Key Results:
+
+Os resultados-chaves, também chamados apenas de KRs, são as metas que determinam o atingimento do objetivo na metodologia OKR.
+
+Baseadas em indicadores-chave de desempenho (KPIs)
+
+Quantitativas
+
+SMART: Específicas, Mensuráveis, Atingíveis, Relevantes e Temporais

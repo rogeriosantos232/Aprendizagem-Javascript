@@ -1,0 +1,8 @@
+Modelo cascata (Tradicional) de gerenciamento de Projetos
+
+O planejamento inicial é feito em escopos, custos e cronograma, e o valor é entregue apenas no final
+
+
+Modelo SCRUM (Ágil) de gerenciamento de Projetos
+
+Fazer o projeto em Sprints, fazendo planejamentos e estimativas, implementado e revisando, além de fazer retrospectivas, tem um desenvolvimento iterativo e incremental, com o valor sendo entregue continuamente

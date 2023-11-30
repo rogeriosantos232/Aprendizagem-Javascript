@@ -1,0 +1,5 @@
+Diferença entre Processo e Projeto
+
+Processo = É recorrente e contínuo, É replicável e geralmente é repetitivo e realizado regularmente
+
+Projeto= É um esforço temporário para atingir um objetivo, o resultado é exclusivo e tem início e fim bem definidos.

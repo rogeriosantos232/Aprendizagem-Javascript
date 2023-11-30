@@ -1,0 +1,23 @@
+O que é SCRUM?
+
+Scrum é um framework leve que ajuda pessoas, times e organizações a gerar valor por meio de soluções adaptativas para problemas complexos
+
+bases do SCRUM
+
+Empirismo 
+Lean Thinking
+
+Pilares do Scrum:
+
+Transparência: A transparência permite que todos os ângulos de qualquer processo Scrum sejam observados por qualquer pessoa. Isto promove um fluxo de informação fácil e transparente em toda a organização e cria uma cultura de trabalho aberta.
+
+Inspeção: a inspeção é a arte de pensar, no sentido de aplicar uma visão crítica sobre o que está acontecendo. É detectar variações ou problemas potencialmente indesejáveis.
+
+* Olhando e medindo o progresso do time
+
+* Feedback dos clientes e stakeholders
+
+* Inspeção e aprovação das entregas
+
+
+Adaptação: a adaptação acontece quando o time Scrum aprende através da transparência e da inspeção e, em seguida, adaptam o processo ao fazerem melhorias no trabalho que está sendo realizado, evitando, também, novos desvios.

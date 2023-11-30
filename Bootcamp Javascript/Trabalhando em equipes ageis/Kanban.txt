@@ -1,0 +1,27 @@
+O que é?
+
+É um método para definir, gerenciar e melhorar serviços que entregam trabalho de conhecimento, como serviços profissionais, atividades criativas e o design de produtos físicos e software.
+
+O Kanban foi desenvolvido pela Toyota na década de 40
+Foi criado para solucionar o problema de gestão de estoque e suprir a demanda que o cliente necessita
+
+Com o intuito de equilibrar a sua produção para evitar as duas situações, a Toyota desenvolveu o método kanban na década de 1940, que foi englobado como uma parte do sistema Toyota de produção.
+
+(Princípio Lean)
+O seu objetivo era promover o controle do estoque de materiais que os produtos não excedessem e nem faltassem, trazendo equilíbrio para o seu estoque e linha de produção.
+
+
+Kanban hoje:
+Na atualidade, o quadro kanban ultrapassou os limites da indústria e passou a ser utilizado em diferentes áreas, como:
+
+Equipes de marketing
+Prestação de serviços
+Desenvolvimento de softwares
+
+Funcionando como uma ferramenta de Gestão de Tarefas
+
+Kanban = método
+kanban = palavra japonesa = 'cartão'
+
+A palavra japonesa 'kanban' significa:
+'sinal' / 'placa de sinalização' / 'cartão'

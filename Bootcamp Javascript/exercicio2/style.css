@@ -1,0 +1,62 @@
+.mostrador{
+    border: 2px solid black;
+    display: flex;
+    width: 100px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#aa{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.elo{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+.elos{
+    margin-left: 3px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+#label{
+        margin-top: 10px;
+        justify-content: center;
+        display: flex;
+}
+
+#label label{
+    border: 2px solid;
+    padding: 4px;
+    border-radius: 7px;
+}
+.vitorias{
+    margin-top: 5px;
+    padding: 4px;
+    border-radius: 7px;
+    justify-content: center;
+    display: flex;
+}
+#botao{
+    margin-left: 10px;
+    width: 75px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.vitorias p{
+    border: 1px solid black;
+    width: 100px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.vitorias label{
+    margin-top: 20px;
+    margin-right: 5px ;
+}

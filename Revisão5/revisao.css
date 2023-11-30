@@ -1,0 +1,17 @@
+#caixa{
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    margin-top: 25px;
+    align-items: center;
+}
+#caixa p{
+    width: 300px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 5px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
