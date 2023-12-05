@@ -1,0 +1,78 @@
+*{
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* Formatação Tela Login */
+
+/* .fundoLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.75);
+    box-sizing: border-box;
+}
+.baseLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: inherit;
+}
+.elementosLogin{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #a8a4a4;
+    border-radius: 7px 0px 0px 7px;
+    padding: 6px;
+    border: 1px solid black;
+    box-sizing: inherit;
+}
+.elementosLogin input{
+    display: flex;
+    border: 1px solid black;
+    margin: auto;
+    box-sizing: inherit;
+    height: 25px;
+}
+.logoLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 50px;
+    box-sizing: inherit;
+}
+.logoLogin img{
+    width: 115px;
+    height: 131px;
+    border-radius: 0px 50% 50% 0px;
+    box-sizing: inherit;
+}
+.botoesLogin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 3px;
+    box-sizing: inherit;
+}
+.botoesLogin button{
+    cursor: pointer;
+    background-color: rgb(34, 144, 253);
+    color: #fff;
+    padding: 4px;
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 70px;
+    box-sizing: inherit;
+} */
+/************************/
