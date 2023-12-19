@@ -6,7 +6,12 @@ class Login {
     static estilocss = null;
     static callbackOK= null;
     static callbackNaoOK= null;
-    static endpoint = "https://testejs--rsantos232.repl.co/";
+    static config={
+    cor:null,//048
+    img:null,
+    endpoint:null//"https://testejs--rsantos232.repl.co/";
+    }
+    
     static config = {
         cor: "#048",
         img: "https://img.freepik.com/premium-vector/black-gold-logo-with-letter-r-it_853558-258.jpg?w=2000"
@@ -27,7 +32,7 @@ class Login {
             ".logoLogin{display: flex;justify-content: center;align-items: center;background-color: #000000;border-radius: 50px;box-sizing:inherit;}" +
             ".logoLogin img{width: 115px;height: 131px;border-radius: 0px 50% 50% 0px;box-sizing: inherit;}" +
             ".botoesLogin{display: flex;justify-content: space-around;align-items: center;width: 100%;padding: 3px;box-sizing: inherit;}" +
-            `.botoesLogin button{cursor: pointer;background-color:${this.config.cor};color: #fff;padding: 4px;border-radius: 3px;border:1px solid black;width: 70px;box-sizing: inherit;}`
+            `.botoesLogin button{cursor: pointer;background-color:#${this.config.cor};color: #fff;padding: 4px;border-radius: 3px;border:1px solid black;width: 70px;box-sizing: inherit;}`
 
         const linkEstilo = document.createElement("style");
         linkEstilo.setAttribute("id", "estiloLogin");
@@ -121,22 +126,22 @@ class Login {
         const mat = document.getElementById("inputUsername").value;
         const pas = document.getElementById("inputSenha").value;
 
-        const endpoint = `https://testejs--rsantos232.repl.co/?matricula=${mat}&senha=${pas}`;
+        const endpoint = `${this.config.endpoint}/?matricula=${mat}&senha=${pas}`;
         fetch(endpoint)
             .then(res => res.json())
             .then(res => {
                 if (res) {
-                    this.logado = true;
-                    this.matlogado = mat;
-                    this.nomelogado = res.nome;
-                    this.acessologado = res.acesso;
+                    sessionStorage.setItem("logado","true");
+                    sessionStorage.setItem("matlogado",mat);
+                    sessionStorage.setItem("nomelogado",res.nome);
+                    sessionStorage.setItem("acessologado",res.acesso);
                     this.callbackOK();
                     this.fechar();
                 } else {
-                    this.logado = false;
-                    this.matlogado = null;
-                    this.nomelogado = null;
-                    this.acessologado = null;
+                    sessionStorage.setItem("logado","false");
+                    sessionStorage.setItem("matlogado","");
+                    sessionStorage.setItem("nomelogado","");
+                    sessionStorage.setItem("acessologado","");
                     this.callbackNaoOK();
                 }
             })
